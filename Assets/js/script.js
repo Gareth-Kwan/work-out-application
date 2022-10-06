@@ -38,7 +38,15 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=middle
     for (var i = 0; i < data.length; i++) {
       var exerciseTitle = document.createElement("h4");
       exerciseTitle.textContent = data[i].name;
-      upperBodyEl.appendChild(exerciseTitle);
+      var pEl = document.createElement("p");
+      pEl.textContent += data[i].instructions; 
+      divEl = document.createElement("div");
+      document.getElementById("upperBody").style.padding = "5px";
+      divEl.appendChild(exerciseTitle);
+      divEl.appendChild(pEl);
+      upperBodyEl.appendChild(divEl);
+      brEl = document.createElement("br");
+      divEl.appendChild(brEl);
     }
   });
 

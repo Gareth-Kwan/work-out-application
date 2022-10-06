@@ -2,3 +2,13 @@ h4 {
   font-weight: bold;
   padding-bottom: 0.5%;
 }
+
+
+nav {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../pics/Seriously-Go-Outside.gif");
+  background-size: cover;
+  background-position: center;
+}

@@ -13,14 +13,14 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=chest"
   .then(function (data) {
     console.log(data);
     for (var i = 0; i < data.length; i++) {
-      var listItem = document.createElement("h4");
-      listItem.textContent += data[i].name;
+      var exerciseTitle = document.createElement("h4");
+      exerciseTitle.textContent += data[i].name;
       var pEl = document.createElement("p");
       pEl.textContent += data[i].instructions;
       divEl = document.createElement("div");
       //create styling for this div element
       document.getElementById("upperBody").style.padding = "5px";
-      divEl.appendChild(listItem);
+      divEl.appendChild(exerciseTitle);
       divEl.appendChild(pEl);
       upperBodyEl.appendChild(divEl);
       brEl = document.createElement("br");
@@ -36,9 +36,9 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=middle
   .then(function (data) {
     console.log(data);
     for (var i = 0; i < data.length; i++) {
-      var listItem = document.createElement("li");
-      listItem.textContent = data[i].name;
-      backEl.appendChild(listItem);
+      var exerciseTitle = document.createElement("h4");
+      exerciseTitle.textContent = data[i].name;
+      upperBodyEl.appendChild(exerciseTitle);
     }
   });
 

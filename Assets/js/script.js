@@ -58,8 +58,17 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
   .then(function (data) {
     console.log(data);
     for (var i = 0; i < data.length; i++) {
-      var listItem = document.createElement("li");
-      listItem.textContent = data[i].name;
-      absEl.appendChild(listItem);
+      var exerciseTitle = document.createElement("h4");
+      exerciseTitle.textContent = data[i].name;
+      var pEl = document.createElement("p");
+      pEl.textContent += data[i].instructions;
+      divEl = document.createElement("div");
+      //Styled div element 
+      document.getElementById("abs").style.padding = "5px";
+      divEl.appendChild(exerciseTitle);
+      divEl.appendChild(pEl);
+      absEl.appendChild(divEl);
+      brEl = document.createElement("br");
+      divEl.appendChild(brEl);
     }
   });

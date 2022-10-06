@@ -72,3 +72,69 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
       divEl.appendChild(brEl);
     }
   });
+
+  var lowerBodyEl = document.querySelector(".lowerBody");
+  fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=glutes", options)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      console.log(data);
+      for (var i = 0; i < data.length; i++) {
+        var exerciseTitle = document.createElement("h4");
+        exerciseTitle.textContent = data[i].name;
+        var pEl = document.createElement("p");
+        pEl.textContent += data[i].instructions;
+        //Styled div element 
+      document.getElementById("lowerBody").style.padding = "5px";
+      divEl.appendChild(exerciseTitle);
+      divEl.appendChild(pEl);
+      lowerBodyEl.appendChild(divEl);
+      brEl = document.createElement("br");
+      divEl.appendChild(brEl);
+      }
+    });
+  
+    var hamstrings = document.querySelector(".lowerBody");
+    fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=hamstrings", options)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        console.log(data);
+        for (var i = 0; i < data.length; i++) {
+          var exerciseTitle = document.createElement("h4");
+          exerciseTitle.textContent = data[i].name;
+          var pEl = document.createElement("p");
+          pEl.textContent += data[i].instructions;
+          //Styled div element 
+        document.getElementById("lowerBody").style.padding = "5px";
+        divEl.appendChild(exerciseTitle);
+        divEl.appendChild(pEl);
+        hamstrings.appendChild(divEl);
+        brEl = document.createElement("br");
+        divEl.appendChild(brEl);
+        }
+      });
+
+      var quadriceps = document.querySelector(".lowerBody");
+      fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=quadriceps", options)
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (data) {
+          console.log(data);
+          for (var i = 0; i < data.length; i++) {
+            var exerciseTitle = document.createElement("h4");
+            exerciseTitle.textContent = data[i].name;
+            var pEl = document.createElement("p");
+            pEl.textContent += data[i].instructions;
+            //Styled div element 
+          document.getElementById("lowerBody").style.padding = "5px";
+          divEl.appendChild(exerciseTitle);
+          divEl.appendChild(pEl);
+          quadriceps.appendChild(divEl);
+          brEl = document.createElement("br");
+          divEl.appendChild(brEl);
+          }
+        });

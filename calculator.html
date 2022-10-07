@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Assets/css/reset.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+
+    <title>Fitness Calculator</title>
+  </head>
+  <body>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">lease enter your height</label>
+        <input type="number" class="form-control" id="height" placeholder="Enter height in cm" />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Please enter your weight.</label>
+        <input type="number" class="form-control" id="weight" placeholder="Enter weight in lb" />
+      </div>
+      <button type="button" class="btn btn-warning submit">Submit</button>
+
+      <div>
+        <h3>BMI</h3>
+        <p class="bmi"></p>
+        <br />
+        <h3>Health</h3>
+        <p class="health"></p>
+        <br />
+        <h3>Healthy BMI Range</h3>
+        <p class="bmiRange"></p>
+      </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./Assets/js/calculator.js"></script>
+  </body>
+</html>

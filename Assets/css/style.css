@@ -1,3 +1,30 @@
+
+:root {
+  --white: white;
+  --gray: #696969;
+  --lightgray: #818589;
+  --black: black;
+  --fonth1: "Audiowide", sans-serif;
+
+}
+
+
+body {
+  background-color: var(--lightgray);
+}
+
+
+
+h1, h2, label {
+  color: var(--white);
+  font-family: var(--fonth1);
+  font-size: 45px;
+  position:relative; 
+  top:20px;
+}
+
+
+
 h4 {
   font-weight: bold;
   padding-bottom: 0.5%;
@@ -8,7 +35,17 @@ nav {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../pics/Seriously-Go-Outside.gif");
+  background-image: url("../pics/risen-wang-20jX9b35r_M-unsplash.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: var(--black);
+ }
+
+
+.accordion {
+  --bs-accordion-active-bg: var(--lightgray);
+  --bs-accordion-active-color: var(--white);
 }

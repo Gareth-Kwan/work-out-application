@@ -11,7 +11,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=chest"
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
+    //console.log(data);
     for (var i = 0; i < data.length; i++) {
       var exerciseTitle = document.createElement("h4");
       exerciseTitle.textContent += data[i].name;
@@ -19,7 +19,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=chest"
       pEl.textContent += data[i].instructions;
       divEl = document.createElement("div");
       //create styling for this div element
-      document.getElementById("upperBody").style.padding = "5px";
+      //document.getElementById("upperBody").style.padding = "5px";
       divEl.appendChild(exerciseTitle);
       divEl.appendChild(pEl);
       upperBodyEl.appendChild(divEl);
@@ -34,14 +34,14 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=middle
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
+    //console.log(data);
     for (var i = 0; i < data.length; i++) {
       var exerciseTitle = document.createElement("h4");
       exerciseTitle.textContent = data[i].name;
       var pEl = document.createElement("p");
       pEl.textContent += data[i].instructions; 
       divEl = document.createElement("div");
-      document.getElementById("upperBody").style.padding = "5px";
+      //document.getElementById("upperBody").style.padding = "5px";
       divEl.appendChild(exerciseTitle);
       divEl.appendChild(pEl);
       upperBodyEl.appendChild(divEl);
@@ -56,7 +56,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
+    //console.log(data);
     for (var i = 0; i < data.length; i++) {
       var exerciseTitle = document.createElement("h4");
       exerciseTitle.textContent = data[i].name;
@@ -64,7 +64,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
       pEl.textContent += data[i].instructions;
       divEl = document.createElement("div");
       //Styled div element 
-      document.getElementById("abs").style.padding = "5px";
+      //document.getElementById("abs").style.padding = "5px";
       divEl.appendChild(exerciseTitle);
       divEl.appendChild(pEl);
       absEl.appendChild(divEl);
@@ -79,14 +79,14 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
+      //console.log(data);
       for (var i = 0; i < data.length; i++) {
         var exerciseTitle = document.createElement("h4");
         exerciseTitle.textContent = data[i].name;
         var pEl = document.createElement("p");
         pEl.textContent += data[i].instructions;
         //Styled div element 
-      document.getElementById("lowerBody").style.padding = "5px";
+      //document.getElementById("lowerBody").style.padding = "5px";
       divEl.appendChild(exerciseTitle);
       divEl.appendChild(pEl);
       lowerBodyEl.appendChild(divEl);
@@ -101,14 +101,14 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
         return response.json();
       })
       .then(function (data) {
-        console.log(data);
+        //console.log(data);
         for (var i = 0; i < data.length; i++) {
           var exerciseTitle = document.createElement("h4");
           exerciseTitle.textContent = data[i].name;
           var pEl = document.createElement("p");
           pEl.textContent += data[i].instructions;
           //Styled div element 
-        document.getElementById("lowerBody").style.padding = "5px";
+        //document.getElementById("lowerBody").style.padding = "5px";
         divEl.appendChild(exerciseTitle);
         divEl.appendChild(pEl);
         hamstrings.appendChild(divEl);
@@ -123,14 +123,14 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
           return response.json();
         })
         .then(function (data) {
-          console.log(data);
+          //console.log(data);
           for (var i = 0; i < data.length; i++) {
             var exerciseTitle = document.createElement("h4");
             exerciseTitle.textContent = data[i].name;
             var pEl = document.createElement("p");
             pEl.textContent += data[i].instructions;
             //Styled div element 
-          document.getElementById("lowerBody").style.padding = "5px";
+          //document.getElementById("lowerBody").style.padding = "5px";
           divEl.appendChild(exerciseTitle);
           divEl.appendChild(pEl);
           quadriceps.appendChild(divEl);
@@ -145,7 +145,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
             return response.json();
           })
           .then(function (data) {
-            console.log(data);
+            //console.log(data);
             for (var i = 0; i < data.length; i++) {
               var exerciseTitle = document.createElement("h4");
               exerciseTitle.textContent += data[i].name;
@@ -153,7 +153,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
               pEl.textContent += data[i].instructions;
               divEl = document.createElement("div");
               //
-              document.getElementById("cardio").style.padding = "5px";
+              //document.getElementById("cardio").style.padding = "5px";
               divEl.appendChild(exerciseTitle);
               divEl.appendChild(pEl);
               cardioEl.appendChild(divEl);
@@ -168,14 +168,14 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
+      //console.log(data);
       for (var i = 0; i < data.length; i++) {
         var exerciseTitle = document.createElement("h4");
         exerciseTitle.textContent += data[i].name;
         var pEl = document.createElement("p");
         pEl.textContent += data[i].instructions;
         //create styling for this div element
-        document.getElementById("strength").style.padding = "5px";
+        //document.getElementById("strength").style.padding = "5px";
         divEl.appendChild(exerciseTitle);
         divEl.appendChild(pEl);
         strengthEl.appendChild(divEl);
@@ -190,7 +190,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
         return response.json();
       })
       .then(function (data) {
-        console.log(data);
+        //console.log(data);
         for (var i = 0; i < data.length; i++) {
           var exerciseTitle = document.createElement("h4");
           exerciseTitle.textContent = data[i].name;
@@ -198,7 +198,7 @@ fetch("https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=abdomi
           pEl.textContent += data[i].instructions;
           divEl = document.createElement("div");
           //Styled div element 
-        document.getElementById("stretching").style.padding = "5px";
+        //document.getElementById("stretching").style.padding = "5px";
         divEl.appendChild(exerciseTitle);
         divEl.appendChild(pEl);
         stretchingEl.appendChild(divEl);

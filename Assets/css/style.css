@@ -5,6 +5,7 @@
   --lightgray: #818589;
   --black: black;
   --fonth1: "Audiowide", sans-serif;
+  --yellow: #F3F090;
 
 }
 
@@ -15,7 +16,7 @@ body {
 
 
 
-h1, h2, label {
+h1, h2, h3, label {
   color: var(--white);
   font-family: var(--fonth1);
   font-size: 45px;
@@ -23,6 +24,13 @@ h1, h2, label {
   top:20px;
 }
 
+.bmi, .health, .bmiRange {
+  font-family: var(--fonth1);
+  font-size: 45px;
+  position:relative; 
+  top:20px;
+  color: var(--yellow);
+}
 
 
 h4 {
@@ -48,4 +56,18 @@ nav {
 .accordion {
   --bs-accordion-active-bg: var(--lightgray);
   --bs-accordion-active-color: var(--white);
+}
+
+
+.btn-warning {
+  --bs-btn-bg: var(--yellow);
+  --bs-btn-border-color: var(--yellow);
+  --bs-btn-hover-bg: var(--yellow);
+  --bs-btn-hover-border-color: var(--yellow);
+
+}
+
+.btn {
+  --bs-btn-padding-x: 6rem;
+
 }

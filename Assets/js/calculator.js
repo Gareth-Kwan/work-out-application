@@ -11,21 +11,38 @@ var submitBtnEl = document.querySelector(".submit");
 var bmiEl = document.querySelector(".bmi");
 var healthEl = document.querySelector(".health");
 var bmiRangeEl = document.querySelector(".bmiRange");
+var bmiValue = "";
+var bmiHealth = "";
+var bmiRange = "";
 
 submitBtnEl.addEventListener("click", function () {
   var height = heightEl.value;
   var weight = weightEl.value;
+  localStorage.clear();
   fetch("https://mega-fitness-calculator1.p.rapidapi.com/bmi?weight=" + weight + "&height=" + height, options)
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
-      console.log(data.info.bmi);
-      console.log(data.info.health);
-      console.log(data.info.healthy_bmi_range);
-      bmiEl.textContent = data.info.bmi;
-      healthEl.textContent = data.info.health;
-      bmiRangeEl.textContent = data.info.healthy_bmi_range;
+      //console.log(data);
+      //console.log(data.info.bmi);
+      //console.log(data.info.health);
+      //console.log(data.info.healthy_bmi_range);
+      bmiValue = data.info.bmi;
+      bmiEl.textContent = bmiValue;
+      localStorage.setItem("bmi",bmiValue)
+      bmiHealth = data.info.health;
+      healthEl.textContent = bmiHealth;
+      localStorage.setItem("health",bmiHealth)
+      bmiRange = data.info.healthy_bmi_range;
+      bmiRangeEl.textContent = bmiRange;
+      localStorage.setItem("bmirange",bmiRange)
     });
 });
+
+bmiValue = localStorage.getItem('bmi');
+bmiEl.textContent = bmiValue;
+bmiHealth = localStorage.getItem('health');
+healthEl.textContent = bmiHealth;
+bmiRange = localStorage.getItem('bmirange');
+bmiRangeEl.textContent = bmiRange;

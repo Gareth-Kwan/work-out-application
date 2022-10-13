@@ -1,43 +1,46 @@
-
 :root {
   --white: white;
   --gray: #696969;
   --lightgray: #818589;
   --black: black;
   --fonth1: "Audiowide", sans-serif;
-  --yellow: #F3F090;
-
+  --yellow: #f3f090;
 }
-
 
 body {
   background-color: var(--lightgray);
 }
 
+.titleText,
+header {
+  background-color: #90aacc;
+}
 
-
-h1, h2, h3, label {
+h1,
+h2,
+h3,
+label {
   color: var(--white);
   font-family: var(--fonth1);
   font-size: 45px;
-  position:relative; 
-  top:20px;
+  position: relative;
+  top: 20px;
 }
 
-.bmi, .health, .bmiRange {
+.bmi,
+.health,
+.bmiRange {
   font-family: var(--fonth1);
   font-size: 45px;
-  position:relative; 
-  top:20px;
+  position: relative;
+  top: 20px;
   color: var(--yellow);
 }
-
 
 h4 {
   font-weight: bold;
   padding-bottom: 0.5%;
 }
-
 
 nav {
   height: 800px;
@@ -50,24 +53,76 @@ nav {
 
 .nav-pills {
   --bs-nav-pills-link-active-bg: var(--black);
- }
-
+  padding-top: 1.5%;
+}
 
 .accordion {
   --bs-accordion-active-bg: var(--lightgray);
   --bs-accordion-active-color: var(--white);
 }
 
-
 .btn-warning {
   --bs-btn-bg: var(--yellow);
   --bs-btn-border-color: var(--yellow);
   --bs-btn-hover-bg: var(--yellow);
   --bs-btn-hover-border-color: var(--yellow);
-
 }
 
 .btn {
   --bs-btn-padding-x: 6rem;
+}
 
+#upperBodyPicture {
+  background-image: url("/Assets/pics/Female\ Fullbody.jpg");
+  background-size: cover;
+  background-position: 25% 40%;
+  color: white;
+}
+
+#corePicture {
+  background-image: url("/Assets/pics/Female\ Fullbody.jpg");
+  background-size: cover;
+  background-position: 25% 60%;
+  color: white;
+}
+
+#lowerBodyPicture {
+  background-image: url("/Assets/pics/Female\ Fullbody.jpg");
+  background-size: cover;
+  color: white;
+  background-position: 55% 80%;
+}
+
+.bmiPicture {
+  background-image: url("/Assets/pics/BMI.jpg");
+  background-size: cover;
+  width: 40%;
+  height: 30vh;
+  max-width: fit-content;
+  position: relative;
+  left: 39%;
+  top: 40%;
+  padding-right: auto;
+  padding-left: auto;
+}
+
+#cardioPicture {
+  background-image: url("/Assets/pics/Cardio.jpg");
+  background-size: cover;
+  background-position: 55% 60%;
+  color: white;
+}
+
+#strengthPicture {
+  background-image: url("/Assets/pics/strength.jpg");
+  background-size: cover;
+  background-position: 55% 80%;
+  color: white;
+}
+
+#stretchPicture {
+  background-image: url("/Assets/pics/Cardio.jpg");
+  background-size: cover;
+  background-position: 55% 80%;
+  color: white;
 }

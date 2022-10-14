@@ -33,7 +33,7 @@ Homescreen with navigation:
 
 Muscle Groups and Type of Exercises with drop down accordions: 
 
-![Screen Shot 2022-10-13 at 8 21 59 PM](https://user-images.githubusercontent.com/61954667/195736716-b2375fe5-235c-4725-b8e4-5e5ddbb80d0a.png)
+![image](https://user-images.githubusercontent.com/16517540/195738045-ec53810d-6638-4408-82c2-6d3c1a21960a.png)
 
 Enter Your Measurements for BMI and then save to local storage:
 

@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/tokei/lines/github/bleachevil/Project1-Workout?style=for-the-badge" alt="Total Lines" />
 </p>
 
-Link to deployed page: 
+Link to deployed page: https://bleachevil.github.io/Project1-Workout/
 Screenshots: 
 
 ## Description
@@ -53,6 +53,8 @@ https://www.masterfile.com/search/en/black+and+white+track+and+field+photography
 
 ## Credits
 
+### Author
+
 Gareth Kwan: https://github.com/Gareth0201
 
 Jeff Zhang: https://github.com/bleachevil
@@ -64,5 +66,13 @@ James Cobrin: https://github.com/Cobrin-James
 Sabrina Nawaz: https://github.com/Sabrina-Nawaz
 
 
+### Built With
 
+</br>
+<p align="center">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/-HTML-orange?style=for-the-badge"  alt="HMTL" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" /></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/-Bootstrap-blueviolet?style=for-the-badge" alt="Bootstrap" /></a>
+</p>
 

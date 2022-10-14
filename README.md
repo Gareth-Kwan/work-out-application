@@ -27,17 +27,21 @@ The project allowed us to learn how to retrieve information from Third Party API
 
 ## Usage
 
-Homescreen with navigation: 
+### Front Page: Homescreen with navigation.
 
 ![Screen Shot 2022-10-13 at 8 21 08 PM](https://user-images.githubusercontent.com/61954667/195736036-862ea4be-f648-4031-9f0f-10a1d494651d.png)
 
-Muscle Groups and Type of Exercises with drop down accordions: 
+### Exercises Page: Muscle Groups and Type of Exercises with drop down accordions.
 
 ![image](https://user-images.githubusercontent.com/16517540/195738045-ec53810d-6638-4408-82c2-6d3c1a21960a.png)
 
-Enter Your Measurements for BMI and then save to local storage:
+### BMI Calculator: Enter Your Measurements for BMI and then save to local storage.
 
 ![Screen Shot 2022-10-13 at 8 25 15 PM](https://user-images.githubusercontent.com/61954667/195736322-2a93bdf4-13ff-4ab1-b102-3e5855efcf2c.png)
+
+### Contact us Page: Enter your contact information with your perferred exercises and we will connect with you.
+![image](https://user-images.githubusercontent.com/16517540/195738644-35aade6d-0b8b-4ec4-a1ba-a214cc73e42e.png)
+
 
 ## Resources 
 

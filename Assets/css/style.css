@@ -130,3 +130,8 @@ nav {
   background-position: 55% 75%;
   color: white;
 }
+
+p {
+  font-size: 25px;
+  color: var(--white);
+}

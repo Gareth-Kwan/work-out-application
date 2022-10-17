@@ -77,28 +77,28 @@ nav {
 }
 
 #upperBodyPicture {
-  background-image: url("/Assets/pics/Female\ Fullbody.jpg");
+  background-image: url("../pics/Female\ Fullbody.jpg");
   background-size: cover;
   background-position: 25% 40%;
   color: white;
 }
 
 #corePicture {
-  background-image: url("/Assets/pics/Female\ Fullbody.jpg");
+  background-image: url("../pics/Female\ Fullbody.jpg");
   background-size: cover;
   background-position: 25% 55%;
   color: white;
 }
 
 #lowerBodyPicture {
-  background-image: url("/Assets/pics/Female\ Fullbody.jpg");
+  background-image: url("../pics/Female\ Fullbody.jpg");
   background-size: cover;
   color: white;
   background-position: 55% 69%;
 }
 
 .bmiPicture {
-  background-image: url("/Assets/pics/BMI.jpg");
+  background-image: url("../pics/BMI.jpg");
   background-size: cover;
   width: 40%;
   height: 30vh;
@@ -111,21 +111,21 @@ nav {
 }
 
 #cardioPicture {
-  background-image: url("/Assets/pics/type-picture.jpg");
+  background-image: url("../pics/type-picture.jpg");
   background-size: cover;
   background-position: 25% 35%;
   color: white;
 }
 
 #strengthPicture {
-  background-image: url("/Assets/pics/type-picture.jpg");
+  background-image: url("../pics/type-picture.jpg");
   background-size: cover;
   background-position: 25% 55%;
   color: white;
 }
 
 #stretchPicture {
-  background-image: url("/Assets/pics/type-picture.jpg");
+  background-image: url("../pics/type-picture.jpg");
   background-size: cover;
   background-position: 55% 75%;
   color: white;

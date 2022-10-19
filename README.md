@@ -8,8 +8,9 @@
     <img src="https://img.shields.io/tokei/lines/github/bleachevil/Project1-Workout?style=for-the-badge" alt="Total Lines" />
 </p>
 
-Link to deployed page: https://bleachevil.github.io/Project1-Workout/
-Screenshots: 
+Link to deployed page: https://bleachevil.github.io/Project1-Workout/ <br />
+Link to presentation page: [CustomFit Presentation (PPT version)](https://github.com/bleachevil/Project1-Workout/blob/main/_Project1-Team3-CustomFit.pptx)&ensp; and&ensp;
+[CustomFit Presentation (PDF version)](https://github.com/bleachevil/Project1-Workout/blob/main/_Project1-Team3-CustomFit.pdf)
 
 ## Description
 
